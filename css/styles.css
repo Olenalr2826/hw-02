@@ -1,113 +1,147 @@
-<<<<<<< HEAD
-.link {color: #2e2f42;}
-.link:hover, .link:focus {color: #404bbf;}
-.button {color: #ffffff; 
-background-color: #4d5ae5; 
-font-size: 16px; 
+.link-logo 
+{font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #4d5ae5;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+
+.accent
+{color: #2e2f42;}
+
+.accent-wish
+{color: #f4f4fd;}
+
+.link-list 
+{color: #2e2f42;
 font-weight: 500;
-text-align: center;
-cursor: pointer;}
-.button:hover {background-color: #404bbf;}
-body {font-family: 'Roboto', sans-serif; color: #2E2F42, #434455; background-color: #ffffff;}
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;}
+
+.link-list:hover, .link-list:focus {color: #404bbf;}
+
+.style-contact
+{font-style: normal;}
+.link-contact 
+{color: #434455;
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;}
+
+.link-contact:hover, .link-contact:focus {color: #404bbf;}
+
+.about
+{background-color: #2e2f42;}
+
 .page-title 
 {color: #ffffff;
-background-color: #2E2F42;
 font-size: 56px;
 font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
 text-align: center;}
-.section-title 
-{font-size: 36px;
-font-weight: 700;
-text-align: center;}
-.features-title 
-{font-size: 20px;
+
+.button 
+{color: #ffffff; 
+background-color: #4d5ae5; 
+font-family: 'Roboto', sans-serif;
+font-size: 16px; 
 font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+cursor: pointer;}
+
+.button:hover {background-color: #404bbf;}
+.button:focus {background-color: #404bbf;}
+
+body {font-family: 'Roboto', sans-serif; color: #2E2F42, #434455; background-color: #ffffff;}
+
+.features-title 
+{color: #2e2f42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 text-align: left;}
+
 .features-title-text
 {color: #434455;
 font-size: 16px;
 font-weight: 400;
 text-align: left;     
-line-height: 1.5;}
-.name-title 
-{background-color: #ffffff;
-font-size: 20px;
-font-weight: 500;
-text-align: center;}
-.name-title-text 
-{background-color: #ffffff;
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-text-align: center;}
-.offer-title
-{font-size: 20px;
-font-weight: 500;
-text-align: left;}
-.offer-title-text
-{color: #434455;
-font-size: 16px;
-font-weight: 400;
-text-align: left;}
-.wish-text
-{background-color: #2e2f42;
-color:#f4f4fd;
-font-size: 16px;
-line-height: 1.5;}
-=======
-.link {color: #2e2f42;}
-.link:hover, .link:focus {color: #404bbf;}
-.button {color: #ffffff; 
-background-color: #4d5ae5; 
-font-size: 16px; 
-font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;}
+
+.section-team
+{background-color: #f4f4fd;}
+
+.description
+{color: #2e2f42;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
 text-align: center;
-cursor: pointer;}
-.button:hover {background-color: #404bbf;}
-body {font-family: 'Roboto', sans-serif; color: #2E2F42, #434455; background-color: #ffffff;}
-.page-title 
-{color: #ffffff;
-background-color: #2E2F42;
-font-size: 56px;
-font-weight: 700;
-text-align: center;}
-.section-title 
-{font-size: 36px;
-font-weight: 700;
-text-align: center;}
-.features-title 
-{font-size: 20px;
-font-weight: 500;
-text-align: left;}
-.features-title-text
-{color: #434455;
-font-size: 16px;
-font-weight: 400;
-text-align: left;     
-line-height: 1.5;}
+text-transform: capitalize;}
+
+.list-team
+{background-color: #ffffff;}
+
 .name-title 
-{background-color: #ffffff;
+{color: #2e2f42;
+background-color: #ffffff;
 font-size: 20px;
 font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 text-align: center;}
+
 .name-title-text 
 {background-color: #ffffff;
 color: #434455;
 font-size: 16px;
 font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 text-align: center;}
+
+.offer
+{color: #2e2f42;
+font-size:36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;}
+
 .offer-title
-{font-size: 20px;
+{color: #2e2f42;
+font-size: 20px;
 font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 text-align: left;}
+
 .offer-title-text
 {color: #434455;
 font-size: 16px;
 font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 text-align: left;}
+
+ul {list-style-type: none;}
+
+.wish 
+{background-color: #2e2f42;}
+
 .wish-text
-{background-color: #2e2f42;
-color:#f4f4fd;
+{color:#f4f4fd;
 font-size: 16px;
-line-height: 1.5;}
->>>>>>> 0a2cb973b6577c945d311ce299e1dc31d0ac1047
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;}
