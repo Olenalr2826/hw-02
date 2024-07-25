@@ -58,7 +58,7 @@ cursor: pointer;}
 .button:hover {background-color: #404bbf;}
 .button:focus {background-color: #404bbf;}
 
-body {font-family: 'Roboto', sans-serif; color: #2E2F42, #434455; background-color: #ffffff;}
+body {font-family: 'Roboto', sans-serif; color: #2E2F42; color: #434455; background-color: #ffffff;}
 
 .features-title 
 {color: #2e2f42;
